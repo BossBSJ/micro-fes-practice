@@ -7,9 +7,11 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start-mf": "yarn build && yarn preview"
   },
   "dependencies": {
+    "@originjs/vite-plugin-federation": "^1.3.9",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
